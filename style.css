@@ -1,0 +1,8 @@
+/* starting by importing a font from google */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto&family=Roboto+Condensed:wght@300&family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk';
+}
