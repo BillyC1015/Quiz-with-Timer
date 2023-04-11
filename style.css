@@ -6,3 +6,28 @@
     box-sizing: border-box;
     font-family: 'Schibsted Grotesk';
 }
+
+body{
+    background: blue;
+}
+
+
+/* Styling for start button */
+.start_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    padding: 15 px 30 px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
