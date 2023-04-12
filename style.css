@@ -8,18 +8,24 @@
 }
 
 body{
-    background: blue;
+    background: green;
 }
 
-
-/* Styling for start button */
-.start_btn{
+.start_btn
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+,
+.info_box{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
-
+/* Styling for start button */
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
@@ -28,6 +34,33 @@ body{
     outline: none;
     border: none;
     border-radius: 5px;
-    background: white;
+    background: red;
     cursor: pointer;
 }
+
+.info_box{
+    width: 540px;
+    background: brown;
+    border-radius: 5px;
+}
+
+.info_box .info_title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid orangered;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info_box .info_list{
+    padding: 15px 35px;
+}
+
+.info_box .info_list .info{
+    margin: 5px 0;
+    font-size: 17px;
+}
+
