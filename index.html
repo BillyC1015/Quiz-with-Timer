@@ -4,30 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta name="viewport" content="width=1 , initial-scale=1.0">
     <title>Coding Quiz</title>
-    <link rel="stylesheet" href="style.css" </head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
     <!-- Start Quiz Button -->
-    <div class="start_btn"><button>Start Quiz</button></div>
+    <button class="start_btn">Start Quiz</button>
 
     <!-- Info Box -->
     <div class="info_box"></div>
-        <div class="info_title">
-            <span>Some Rules of this Quiz</span>
-            <div class="info_list"></div>
-            <div class="info">1. Each question will be timed <span>15 seconds</span>.</div>
-            <div class="info">2. You cannot select another answer after your initial selection.</div>
-            <div class="info">3. Once the time goes off you cannot select an answer.</div>
-            <div class="info">4. Once you start the quiz you cannot exit.</div>
-            <div class="info">5. Each correct answer will give you.</div>
+    <div class="info_title">
+        <span>Some Rules of this Quiz</span>
+        <div class="info_list"></div>
+        <div class="info">1. You will have <span>30 seconds</span> to complete this quiz.</div>
+        <div class="info">2. You cannot select another answer after your initial selection.</div>
+        <div class="info">3. If you answer incorrectly you will lose <span>10 seconds</span> from your total time.</div>
+        <div class="info">4. Once you start the quiz you cannot exit.</div>
+        <div class="info">5. Each correct answer will give you 1 point.</div>
+
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
         </div>
-    <div class="buttons">
-        <button class="quit">Exit Quiz</button>
-        <button class="restart">Continue</button>
-    </div>
-</body>
+        <div class="questions"></div>
+            <script src="script.js"></script>
 </body>
 
 </html>
