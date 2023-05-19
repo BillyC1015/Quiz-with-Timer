@@ -10,7 +10,9 @@
 body{
     background: green;
 }
-
+.hide{
+    display:none
+}
 .start_btn
     {
         position: absolute;

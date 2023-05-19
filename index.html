@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <h2>Time Left: <span id="timer"></span></h2>
     <!-- Start Quiz Button -->
     <button class="start_btn">Start Quiz</button>
 
@@ -23,13 +24,22 @@
         <div class="info">3. If you answer incorrectly you will lose <span>10 seconds</span> from your total time.</div>
         <div class="info">4. Once you start the quiz you cannot exit.</div>
         <div class="info">5. Each correct answer will give you 1 point.</div>
-
-        <div class="buttons">
-            <button class="quit">Exit Quiz</button>
-            <button class="restart">Continue</button>
-        </div>
-        <div class="questions"></div>
-            <script src="script.js"></script>
+    </div>
+    <div class="questions hide">
+        <div id="title"></div>
+        <div id="options"></div>
+    </div>
+    <div id="endScreen" class="hide">
+        <h2>All done!</h2>
+        <h3>You final score is: <span id= "finalScore"></span></span></h3>
+    <input type="text" id="userName" placeholder="Your name here">
+    <button id="submit">Submit</button>
+    </div>
+    <div id="scorePage" class="hide">
+    <h2>High Scores</h2>
+    <ol id= "highScores"></ol>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
